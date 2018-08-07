@@ -1,0 +1,12 @@
+{% include "admin/edit_inline/stacked.html" %}
+
+
+<div class="map_canvas_wrapper" style="display: none;"><div id="map_canvas"></div></div>
+<span id="loci-location-json-url"
+      data-url="{% url "admin:django_loci_location_json" "0000" %}"></span>
+<span id="loci-location-floorplans-json-url"
+      data-url="{% url "admin:django_loci_location_floorplans_json" "0000" %}"></span>
+
+<script>
+$('.field-address').after($('.map_canvas_wrapper'))
+</script>
