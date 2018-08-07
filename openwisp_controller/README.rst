@@ -5,7 +5,7 @@ Dependencies
 ------------
 
 *  openwisp
-*  django_google_maps>
+*  django_google_maps
 *  sqlparse     
 
 Install
